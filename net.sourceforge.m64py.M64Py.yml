@@ -55,6 +55,7 @@ modules:
       - OSD=0
       - NEW_DYNAREC=1
     make-install-args:
+      - SHAREDIR=/app/share/mupen64plus
       - PREFIX=/app
       - VULKAN=0
       - OSD=0

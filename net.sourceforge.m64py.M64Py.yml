@@ -42,6 +42,11 @@ cleanup-commands:
   - rm -rf /app/lib/python/site-packages/PyQt6/QtXml*
   - rm -rf /app/lib/python/site-packages/sdl2/examples
   - rm -rf /app/lib/python/site-packages/sdl2/test
+  - rm -rf /app/lib/python/site-packages/packaging*
+  - rm -rf /app/lib/python/site-packages/ply*
+  - rm -rf /app/lib/python/site-packages/pyparsing*
+  - rm -f /app/lib/python/site-packages/m64py/ui/__pycache__/snapshot_rc*
+  - rm -f /app/lib/python/site-packages/m64py/ui/__pycache__/title_rc*
 
 modules:
 

@@ -175,8 +175,8 @@ modules:
       - python3 -m pip install --no-index --prefix=/app --no-build-isolation .
     sources:
       - type: archive
-        url: https://github.com/py-sdl/py-sdl2/releases/download/0.9.16/PySDL2-0.9.16.tar.gz
-        sha256: 1027406badbecdd30fe56e800a5a76ad7d7271a3aec0b7acf780ee26a00f2d40
+        url: https://github.com/py-sdl/py-sdl2/archive/refs/tags/0.9.17.tar.gz
+        sha256: f3ae2232075271d997502f6c90a0c41778296248d86b6780623dc3d88efdde0f
 
   - name: m64py
     buildsystem: simple

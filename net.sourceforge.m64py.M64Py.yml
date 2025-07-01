@@ -1,9 +1,9 @@
 app-id: net.sourceforge.m64py.M64Py
 runtime: org.kde.Platform
-runtime-version: '6.7'
+runtime-version: '6.9'
 sdk: org.kde.Sdk
 base: com.riverbankcomputing.PyQt.BaseApp
-base-version: '6.7'
+base-version: '6.9'
 
 command: m64py
 
